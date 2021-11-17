@@ -1,0 +1,59 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+a{
+    text-decoration: none;
+}
+
+/* BODY */
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+
+.col{
+    
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.left{
+    background: blue;
+}
+
+.right{
+    background: red;
+}
+
+.col span{
+    margin: 10px 0;
+}
+
+.play_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play_btn a{
+    padding: 10px;
+    background: cyan;
+    border-radius: 20px;
+}
